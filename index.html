@@ -3,12 +3,11 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Add Google Fonts here-->
-
-    <!--Link your stylesheet here-->
-
-
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@700&family=Source+Sans+Pro&display=swap"
+        rel="stylesheet">
     <title>The Watering Can</title>
 </head>
 
@@ -16,10 +15,8 @@
     <header>
         <nav>
             <div class="logo">
-                <img src="images/logo.png" alt="watering can">
-
+                <img src="images/logo.png" alt="logo for the watering can">
             </div>
-
             <div class="links">
                 <a href="#top">Home</a>
                 <a href="#about">About</a>
@@ -28,81 +25,82 @@
             </div>
         </nav>
     </header>
-
     <section id="top">
         <div>
             <h1>The Watering Can</h1>
             <button>Shop Our Indoor Plant Sale</button>
         </div>
-
     </section>
-
     <section id="about">
         <div>
             <h2>Our Story</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo aliquid provident asperiores sapiente
-                corporis perferendis delectus perspiciatis libero! Ullam adipisci eius cupiditate deserunt voluptas
-                dolorem vero dicta blanditiis incidunt iste!</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe aspernatur error architecto quos
+                repudiandae! Explicabo tempora, veniam quidem blanditiis quaerat modi esse doloremque quis? Placeat
+                adipisci nemo blanditiis iste eligendi!</p>
         </div>
     </section>
     <section id="shop">
         <h2>Our Plants</h2>
         <div class="wrapper">
-            <div class="shopbg succulants"></div>
+            <!-- This opens the first wrapper-->
+            <div class="shop-bg succulants"></div>
             <div class="text">
                 <div>
                     <h3>Succulants</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor pariatur explicabo iusto saepe
-                        quia quos vitae, obcaecati quasi sit? Natus pariatur repellat dicta nobis delectus sequi
-                        repudiandae ut voluptate adipisci.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde, magnam sapiente? Magnam
+                        laudantium doloremque inventore minus distinctio similique exercitationem, saepe dolorum
+                        possimus consequatur adipisci aut asperiores iste? Et, mollitia beatae?</p>
                     <button>Shop Now!</button>
                 </div>
             </div>
-        </div>
-        <!--This closes the first wrapper-->
-        <div class="wrapper">
-            <!--This open the second wrapper-->
+        </div><!-- This closes the first wrapper-->
+        <div class="wrapper mobile-flip">
+            <!-- This opens the second wrapper-->
             <div class="text">
-                <h3>Cacti</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae consequuntur iure, laudantium
-                    iste enim praesentium mollitia deserunt sapiente blanditiis, odio eaque dolorem voluptates quisquam
-                    illum voluptatibus eum eveniet rerum doloribus!</p>
-                <button>Shop Now!</button>
+                <div>
+                    <h3>Cacti</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias voluptate iste reprehenderit.
+                        Placeat dolorem corrupti fugit repellat laudantium. Laborum delectus est ad sed nulla esse
+                        soluta enim iure laboriosam eveniet!</p>
+                    <button>Shop Now!</button>
+                </div>
             </div>
             <div class="shop-bg cacti"></div>
-        </div>
+        </div><!-- This closes the second wrapper-->
         <div class="wrapper">
+            <!-- This opens the third wrapper-->
             <div class="shop-bg tropicals"></div>
             <div class="text">
                 <div>
                     <h3>Tropicals</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit voluptates sunt quas sapiente
-                        doloremque ratione consequatur cupiditate quasi rem voluptate molestias libero hic tempore sit
-                        ab consequuntur, quia ipsam amet.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia iste, cum odio at molestiae
+                        voluptates facilis eos beatae expedita, blanditiis ipsa similique debitis reiciendis! Aspernatur
+                        sed libero sit omnis nulla!</p>
                     <button>Shop Now!</button>
                 </div>
             </div>
-            <footer id="contact">
-                <h2>Get In Touch</h2>
-                <div class="left">
-                    <div>
-                        <h3>Find Us Here:</h3>
-                        <address>123 Plant Lane <br>
-                            Bloomfiel Ontario<br>
-                            Canada L2G 0X7
-                        </address>
-                        <a href="tel:1-613-978-8282">+1-613-978-8282</a><br>
-                        <a href="mailto:info@thewateringcan.ca">info@thewateringcan.ca</a>
-                        <p>@thewateringcan on the socials</p>
-                    </div>
-                </div>
-                <div class="right">
-                    <img src="images/shop.jpg" alt="A picture of inside the shop of the watering can">
-                </div>
-                <p>Copyright Karla Nieves 2021</p>
-            </footer>
-        </div>
+        </div><!-- This closes the third wrapper-->
     </section>
+    <footer id="contact">
+        <h2>Get In Touch</h2>
+        <div class="left">
+            <div>
+                <h3>Find Us Here:</h3>
+                <address>
+                    123 Plant Lane<br>
+                    Bloomfield Ontario<br>
+                    Canada L2G 0X7
+                </address>
+                <a href="tel:1-613-978-8282">+1-613-978-8282</a><br>
+                <a href="mailto:info@thewateringcan.ca">info@thewateringcan.ca</a>
+                <p>@thewateringcan on the socials</p>
+            </div>
+        </div>
+        <div class="right">
+            <img src="images/shop.jpg" alt="A picture of inside the shop of the watering can">
+        </div>
+        <p class="copyright">Copyright Karla Nieves 2021</p>
+    </footer>
 </body>
 
 </html>
